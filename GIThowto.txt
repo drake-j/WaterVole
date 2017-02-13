@@ -1,0 +1,16 @@
+################################################
+#set the directory i want to work with
+cd ~/Dropbox/WAV/WaterVole
+
+
+################################################
+# pull something:
+git remote set-url origin https://github.com/drake-j/WaterVole.git
+git fetch --all
+git pull origin master
+  
+################################################
+# push something:
+git add -A 
+git commit -m "message for commit"
+git push origin master
